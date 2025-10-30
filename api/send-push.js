@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     const VAPID_PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY;
 
     webpush.setVapidDetails(
-      'mailto:your-email@example.com',
+      'mailto:mundewadiyahya@example.com',
       VAPID_PUBLIC_KEY,
       VAPID_PRIVATE_KEY
     );
